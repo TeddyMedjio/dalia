@@ -6,10 +6,11 @@ export default function Engagement() {
   return (
     <div className="py-20">
       <Container>
-        <h2 className="text-5xl text-vert-fonce font-medium leading-14">
-          Pourquoi choisir <br /> Dalia Environnement?
+        <h2 className=" text-[34px] md:text-5xl leading-10 text-vert-fonce font-medium md:leading-14">
+          Pourquoi choisir <br className="hidden md:block" /> Dalia
+          Environnement?
         </h2>
-        <p className="text-lg text-vert-contrast max-w-md mt-3 leading-tight">
+        <p className="md:text-lg text-vert-contrast max-w-md mt-3 leading-tight">
           Notre engagement envers la qualité et le service fait toute la
           différence.
         </p>

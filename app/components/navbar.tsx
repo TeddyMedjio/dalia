@@ -34,14 +34,14 @@ export default function Navbar() {
           <Link href="/">
             <Image src="/logo.svg" alt="logo dalia" width={97} height={44} />
           </Link>
-          <ul className="hidden md:flex items-center gap-10 text-vert-fonce capitalize">
+          <ul className="hidden md:flex items-center gap-8 text-vert-fonce capitalize">
             {navigation.map((nav, indx) => (
               <li key={indx}>
                 <Link
                   href={nav.link}
                   className={clsx(
                     "transition-all duration-300 ease-in-out hover:text-vert",
-                    pathname === nav.link ? "font-bold text-vert" : ""
+                    pathname === nav.link ? "font-semibold text-vert" : ""
                   )}
                 >
                   {nav.name}
