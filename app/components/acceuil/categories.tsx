@@ -16,7 +16,7 @@ export default function Categories() {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10">
           <Link
-            href="#"
+            href="/produits"
             className="relative h-[304px] md:h-[504px] w-full overflow-hidden rounded-3xl hover:shadow-lg transition-all duration-300 ease-in-out border hover:border border-vert-secondary"
           >
             <div className="lg:hidden bg-gradient-to-t from-vert  to-transparent absolute  bottom-0 w-full h-full z-5">
@@ -40,7 +40,7 @@ export default function Categories() {
           </Link>
           <div className="space-y-5 flex flex-col h-[608px] md:h-full">
             <Link
-              href="#"
+              href="/produits"
               className="relative flex-1 rounded-3xl overflow-hidden hover:shadow-lg transition-all duration-300 ease-in-out border hover:border border-vert-secondary "
             >
               <div className="lg:hidden bg-gradient-to-t from-vert via-vert/70  to-transparent absolute  bottom-0 w-full h-full z-5">
@@ -56,14 +56,14 @@ export default function Categories() {
                 </p>
               </div>
               <Image
-                src="/ramettes.jpg"
+                src="/ramettes.png"
                 alt="image papier hygienique"
                 fill={true}
                 className="absolute inset-0 object-cover"
               />
             </Link>
             <Link
-              href="#"
+              href="/produits"
               className="relative flex-1 rounded-3xl overflow-hidden hover:shadow-lg transition-all duration-300 ease-in-out border hover:border border-vert-secondary"
             >
               <div className="lg:hidden bg-gradient-to-t from-vert via-vert/70 to-transparent absolute  bottom-0 w-full h-full z-5">

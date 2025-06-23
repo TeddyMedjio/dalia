@@ -22,8 +22,10 @@ export function AccordionDemo() {
         </AccordionTrigger>
         <AccordionContent className={cn("text-vert-secondary text-balance")}>
           <p>
-            Fournisseur de qualité en papier hygiénique, rams de papier et
-            papier thermique pour professionnels et particuliers.
+            Papier durable — un rouleau dure plus longtemps, ce qui peut réduire
+            la quantité utilisée et une bonne absorbance et teinte crème
+            naturelle appréciées par les personnes sensibles aux produits
+            chimiques.{" "}
           </p>
         </AccordionContent>
       </AccordionItem>
@@ -35,8 +37,9 @@ export function AccordionDemo() {
         </AccordionTrigger>
         <AccordionContent className={cn("text-vert-secondary text-balance")}>
           <p>
-            Fournisseur de qualité en papier hygiénique, rams de papier et
-            papier thermique pour professionnels et particuliers.
+            Le papier hygiénique Dalia Premium est fabriqué à partir de fibres
+            cellulosiques (pulpe de bois vierge) issues de forêts gérées
+            durablement
           </p>
         </AccordionContent>
       </AccordionItem>
@@ -48,8 +51,9 @@ export function AccordionDemo() {
         </AccordionTrigger>
         <AccordionContent className={cn("text-vert-secondary text-balance")}>
           <p>
-            Fournisseur de qualité en papier hygiénique, rams de papier et
-            papier thermique pour professionnels et particuliers.
+            Les ramettes de papier PAPYRUS garantissent une impression nette et
+            sans bavure, réduisant considérablement les risques de bourrage dans
+            les imprimantes et copieurs.
           </p>
         </AccordionContent>
       </AccordionItem>
@@ -61,12 +65,13 @@ export function AccordionDemo() {
         </AccordionTrigger>
         <AccordionContent className={cn("text-vert-secondary text-balance")}>
           <p>
-            Fournisseur de qualité en papier hygiénique, rams de papier et
-            papier thermique pour professionnels et particuliers.
+            Le service client de Dalia Environnement semble globalement réactif
+            selon les avis disponibles en ligne. Les utilisateurs apprécient la
+            rapidité des réponses et la qualité du suivi après-vente.
           </p>
         </AccordionContent>
       </AccordionItem>
-      <AccordionItem value="item-5">
+      {/* <AccordionItem value="item-5">
         <AccordionTrigger
           className={cn("text-vert-contrast font-semibold text-lg")}
         >
@@ -78,7 +83,7 @@ export function AccordionDemo() {
             papier thermique pour professionnels et particuliers.
           </p>
         </AccordionContent>
-      </AccordionItem>
+      </AccordionItem> */}
     </Accordion>
   );
 }

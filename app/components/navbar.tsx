@@ -57,7 +57,7 @@ export default function Navbar() {
             <span>
               <Image src="/phone.svg" width={24} height={24} alt="icon phone" />
             </span>
-            655 12 31 14
+            699 62 03 87
           </Link>
           <NavMobile />
         </div>

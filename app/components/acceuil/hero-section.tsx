@@ -21,13 +21,13 @@ export default function HeroSection() {
             </p>
             <div className="space-x-5 mt-10">
               <Link
-                href="#"
+                href="/produits"
                 className="text-sm md:text-base bg-vert-citron hover:bg-vert hover:text-vert-citron transition duration-300 text-vert py-3 px-8 font-medium rounded-full border border-vert"
               >
                 Nos Produits
               </Link>
               <Link
-                href="#"
+                href="/contact"
                 className="text-sm md:text-base bg-vert-secondary hover:bg-vert transition duration-300 text-vert-citron py-3 px-8 font-medium rounded-full border-vert border"
               >
                 Contactez-nous

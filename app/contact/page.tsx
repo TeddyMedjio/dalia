@@ -19,7 +19,7 @@ export default function Page() {
               height={64}
             />
             <h2 className="text-vert text-[34px] leading-10 md:text-5xl font-medium md:leading-14">
-              655 12 31 14
+              699 62 03 87
             </h2>
           </div>
           <p className="text-center max-w-3xl text-vert-fonce">

@@ -34,10 +34,10 @@ export default function Page() {
         {/* left */}
         <div className="hidden flex-1/2 md:grid place-items-center bg-vert-secondary relative h-[416px]">
           <Image
-            src="/dalia.jpg"
+            src="/ramettes.png"
             alt="image papier"
             fill={true}
-            className="object-cover"
+            className="object-top"
           />
         </div>
         {/* right */}

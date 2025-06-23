@@ -21,7 +21,7 @@ export async function POST(req: NextRequest) {
       html: `
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Location:</strong> ${object}</p>
+        <p><strong>Objet:</strong> ${object}</p>
         <p><strong>Message:</strong><br/>${message}</p>
       `,
     };

@@ -34,7 +34,7 @@ export default function Footer() {
               </ul>
             </div>
             {/* Liens */}
-            <div className="space-y-3 hidden md:block">
+            {/* <div className="space-y-3 hidden md:block">
               <p className="text-vert-secondary font-medium">Suivez-nous</p>
               <ul className="text-vert-fonce space-y-3">
                 <li>
@@ -47,23 +47,23 @@ export default function Footer() {
                   <Link href="#">Linkkedin</Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
             {/* Contacts */}
             <div className="space-y-3">
               <p className="text-vert-secondary font-medium">Contacts</p>
               <ul className="text-vert-fonce space-y-3">
-                <li>contact@gmail.com</li>
+                <li>sophie.fossuo@dalia.cm</li>
                 <li>
                   <span className="text-vert-secondary font-medium mr-2">
                     Phone:
                   </span>
-                  +237 655 12 31 14
+                  +237 699 62 03 87
                 </li>
                 <li>
                   <span className="text-vert-secondary font-medium mr-2">
                     BP:
                   </span>
-                  1234 Bld de la liberté Akwa
+                  1590 Douala-Cameroun
                 </li>
               </ul>
             </div>
