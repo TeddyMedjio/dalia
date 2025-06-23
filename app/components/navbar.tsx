@@ -6,6 +6,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import { NavMobile } from "./nav-mobile";
+import { MailIcon } from "lucide-react";
 
 const navigation = [
   {
@@ -29,7 +30,7 @@ const navigation = [
 export default function Navbar() {
   const pathname = usePathname();
   return (
-    <nav className="py-5 border-b border-jaune-clair shadow-md">
+    <nav className="sticky top-0 z-50 bg-white py-4 border-b border-vert-secondary/80 shadow-sm">
       <Container>
         <div className="flex items-center justify-between">
           <Link href="/">
@@ -51,13 +52,13 @@ export default function Navbar() {
             ))}
           </ul>
           <Link
-            href="tel:"
-            className="hidden md:flex items-center bg-vert-secondary px-4 py-2 rounded-full text-white border border-vert font-medium gap-2"
+            href="mailto:sophie.fossuo@dalia.cm"
+            className="hidden md:flex items-center bg-vert px-4 py-2 rounded-full text-white border border-vert font-medium gap-2"
           >
             <span>
-              <Image src="/phone.svg" width={24} height={24} alt="icon phone" />
+              <MailIcon size={20} />
             </span>
-            699 62 03 87
+            Envoyer un Mail
           </Link>
           <NavMobile />
         </div>

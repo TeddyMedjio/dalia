@@ -16,12 +16,12 @@ export function AccordionDemo() {
     >
       <AccordionItem value="item-1">
         <AccordionTrigger
-          className={cn("text-vert-contrast font-semibold text-lg")}
+          className={cn("text-vert-contrast font-semibold text-lg lg:text-xl")}
         >
           Est ce que le papier Hygiénique Dalia Premium est meilleur ?
         </AccordionTrigger>
-        <AccordionContent className={cn("text-vert-secondary text-balance")}>
-          <p>
+        <AccordionContent className={cn("text-vert text-balance")}>
+          <p className="max-w-xl">
             Papier durable — un rouleau dure plus longtemps, ce qui peut réduire
             la quantité utilisée et une bonne absorbance et teinte crème
             naturelle appréciées par les personnes sensibles aux produits
@@ -31,12 +31,12 @@ export function AccordionDemo() {
       </AccordionItem>
       <AccordionItem value="item-2">
         <AccordionTrigger
-          className={cn("text-vert-contrast font-semibold text-lg")}
+          className={cn("text-vert-contrast font-semibold text-lg lg:text-xl")}
         >
           De quoi est fait le papier toilette Dalia Premium ?
         </AccordionTrigger>
-        <AccordionContent className={cn("text-vert-secondary text-balance")}>
-          <p>
+        <AccordionContent className={cn("text-vert text-balance")}>
+          <p className="max-w-xl">
             Le papier hygiénique Dalia Premium est fabriqué à partir de fibres
             cellulosiques (pulpe de bois vierge) issues de forêts gérées
             durablement
@@ -45,12 +45,12 @@ export function AccordionDemo() {
       </AccordionItem>
       <AccordionItem value="item-3">
         <AccordionTrigger
-          className={cn("text-vert-contrast font-semibold text-lg")}
+          className={cn("text-vert-contrast font-semibold text-lg lg:text-xl")}
         >
           Les Rams de Papiers PAPYRUS font-ils le travail ?
         </AccordionTrigger>
-        <AccordionContent className={cn("text-vert-secondary text-balance")}>
-          <p>
+        <AccordionContent className={cn("text-vert text-balance")}>
+          <p className="max-w-xl">
             Les ramettes de papier PAPYRUS garantissent une impression nette et
             sans bavure, réduisant considérablement les risques de bourrage dans
             les imprimantes et copieurs.
@@ -59,12 +59,12 @@ export function AccordionDemo() {
       </AccordionItem>
       <AccordionItem value="item-4">
         <AccordionTrigger
-          className={cn("text-vert-contrast font-semibold text-lg")}
+          className={cn("text-vert-contrast font-semibold text-lg lg:text-xl")}
         >
           Est ce que le service client est reactif ?
         </AccordionTrigger>
-        <AccordionContent className={cn("text-vert-secondary text-balance")}>
-          <p>
+        <AccordionContent className={cn("text-vert text-balance")}>
+          <p className="max-w-xl">
             Le service client de Dalia Environnement semble globalement réactif
             selon les avis disponibles en ligne. Les utilisateurs apprécient la
             rapidité des réponses et la qualité du suivi après-vente.

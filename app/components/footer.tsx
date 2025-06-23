@@ -52,7 +52,12 @@ export default function Footer() {
             <div className="space-y-3">
               <p className="text-vert-secondary font-medium">Contacts</p>
               <ul className="text-vert-fonce space-y-3">
-                <li>sophie.fossuo@dalia.cm</li>
+                <li>
+                  <span className="text-vert-secondary font-medium mr-2">
+                    Email:
+                  </span>
+                  sophie.fossuo@dalia.cm
+                </li>
                 <li>
                   <span className="text-vert-secondary font-medium mr-2">
                     Phone:
