@@ -47,22 +47,22 @@ export default function Page() {
                     <span className="font-bold">Remarque:</span> si vous avez un
                     problème ou une plainte concernant un produit, veuillez
                     conserver le produit et son emballage, car il se peut que
-                    l’on vous demande de le renvoyer; Tous les frais
-                    d’expédition seront pris en charge par{" "}
+                    l&apos;on vous demande de le renvoyer; Tous les frais
+                    d&apos;expédition seront pris en charge par{" "}
                     <span className="font-bold">DALIA ENVIRONNEMENT</span>.
                   </p>
                   <br />
                   <p className="text-white text-sm lg:text-base">
                     <span className="font-bold">DALIA ENVIRONNEMENT</span>{" "}
-                    n’accepte pas et ne répond pas aux messages des personnes
-                    âgées de moins de treize ans. Si vous avez moins de treize
-                    ans, veuillez demander à vos parents ou à votre tuteur
-                    d'envoyer la question en votre nom.
+                    n&apos;accepte pas et ne répond pas aux messages des
+                    personnes âgées de moins de treize ans. Si vous avez moins
+                    de treize ans, veuillez demander à vos parents ou à votre
+                    tuteur d&apos;envoyer la question en votre nom.
                   </p>
                   <br />
                   <p className="text-white text-sm lg:text-base">
                     Quelle que soit la façon dont vous nous contactez, soyez
-                    assuré qu’en aucun cas les renseignements que vous
+                    assuré qu&apos;en aucun cas les renseignements que vous
                     fournissez ne seront partagés ou vendus et qu’ils ne seront
                     utilisés que par{" "}
                     <span className="font-bold">DALIA ENVIRONNEMENT</span> et
