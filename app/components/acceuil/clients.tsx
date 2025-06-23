@@ -57,7 +57,7 @@ export default function Clients() {
             </div>
             <div className="relative w-auto h-full overflow-hidden rounded-3xl flex-2/3">
               <Image
-                src="/toilette.jpg"
+                src="/enfants.png"
                 fill={true}
                 alt="image rouleau de papier"
                 className="absolute inset-0 object-cover"

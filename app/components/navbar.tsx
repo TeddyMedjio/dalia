@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
+import { NavMobile } from "./nav-mobile";
 
 const navigation = [
   {
@@ -50,7 +51,7 @@ export default function Navbar() {
             ))}
           </ul>
           <Link
-            href="#"
+            href="tel:"
             className="hidden md:flex items-center bg-vert-secondary px-4 py-2 rounded-full text-white border border-vert font-medium gap-2"
           >
             <span>
@@ -58,6 +59,7 @@ export default function Navbar() {
             </span>
             655 12 31 14
           </Link>
+          <NavMobile />
         </div>
       </Container>
     </nav>

@@ -22,7 +22,7 @@ export default function Page() {
         {/* right */}
         <div className="hidden flex-1/2 md:grid place-items-center bg-vert-secondary relative h-[416px]">
           <Image
-            src="/papiers.jpg"
+            src="/dalia.jpg"
             alt="image papier"
             fill={true}
             className="object-cover"

@@ -5,16 +5,16 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="py-20 border-t border-neutral-200">
+    <footer className="py-10 md:py-20 border-t border-neutral-200">
       <Container>
         <div className="flex flex-col lg:flex-row justify-between">
           <div className="mb-10 lg:mb-0">
             <Link href="/">
               <Image src="/logo.svg" alt="image logo" width={157} height={71} />
             </Link>
-            <p className="max-w-[300px] text-sm text-vert-contrast leading-4 mt-4">
-              est une entreprise camerounaise spécialisée dans la fourniture de
-              papiers à usage professionnel.
+            <p className="w-full md:max-w-[300px] text-sm text-vert-contrast leading-4 mt-4">
+              Dalia Environnement est une entreprise camerounaise spécialisée
+              dans la fourniture de papiers à usage professionnel.
             </p>
           </div>
           <div className="flex flex-row flex-wrap items-start gap-10 lg:gap-20">
@@ -52,26 +52,18 @@ export default function Footer() {
             <div className="space-y-3">
               <p className="text-vert-secondary font-medium">Contacts</p>
               <ul className="text-vert-fonce space-y-3">
+                <li>contact@gmail.com</li>
                 <li>
-                  <Link href="mailto:email_address">
-                    contact@daliaenvironnement.cm
-                  </Link>
+                  <span className="text-vert-secondary font-medium mr-2">
+                    Phone:
+                  </span>
+                  +237 655 12 31 14
                 </li>
                 <li>
-                  <Link href="tel:">
-                    <span className="text-vert-secondary font-medium mr-2">
-                      Phone:
-                    </span>
-                    +237 655 12 31 14
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#">
-                    <span className="text-vert-secondary font-medium mr-2">
-                      BP:
-                    </span>
-                    1234 Bld de la liberté Akwa
-                  </Link>
+                  <span className="text-vert-secondary font-medium mr-2">
+                    BP:
+                  </span>
+                  1234 Bld de la liberté Akwa
                 </li>
               </ul>
             </div>
