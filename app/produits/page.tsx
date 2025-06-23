@@ -1,5 +1,10 @@
+import { Metadata } from "next";
 import Image from "next/image";
-import React from "react";
+export const metadata: Metadata = {
+  title: "apropos/Dalia Environnement",
+  description:
+    "Nous proposons une gamme variée de papiers hygiéniques adaptés aux particuliers, collectivités, hôtels et entreprises. Disponibles en rouleaux standard, maxi ou jumbo.",
+};
 
 export default function Page() {
   return (
@@ -9,9 +14,9 @@ export default function Page() {
         {/* left */}
         <div className="flex-1/2 grid place-items-center bg-vert px-5 py-10 md:py-0 md:p-10">
           <div className="max-w-lg space-y-5">
-            <h2 className="text-white text-[34px] leading-10 md:text-4xl lg:text-5xl font-medium md:leading-10 lg:leading-none">
+            <h1 className="text-white text-[34px] leading-10 md:text-4xl lg:text-5xl font-medium md:leading-10 lg:leading-none">
               Papier hygiénique <span className="uppercase">Dalia Premium</span>
-            </h2>
+            </h1>
             <p className="text-white">
               Nous proposons une gamme variée de papiers hygiéniques adaptés aux
               particuliers, collectivités, hôtels et entreprises. Disponibles en
@@ -43,9 +48,9 @@ export default function Page() {
         {/* right */}
         <div className="flex-1/2 grid place-items-center bg-vert-citron px-5 py-10 md:py-0 md:p-10">
           <div className="max-w-lg space-y-5">
-            <h2 className="text-vert text-[34px] leading-10 md:text-4xl lg:text-5xl font-medium md:leading-10 lg:leading-none">
+            <h1 className="text-vert text-[34px] leading-10 md:text-4xl lg:text-5xl font-medium md:leading-10 lg:leading-none">
               Ramettes de papier <span className="uppercase">papyrus</span>
-            </h2>
+            </h1>
             <p className="text-vert-contrast">
               Papier blanc ou recyclé, format A4 ou A3, 70g, 75g, ou 80g. Idéal
               pour impression, photocopie, usage scolaire ou administratif.
@@ -58,9 +63,9 @@ export default function Page() {
         {/* left */}
         <div className="flex-1/2 grid place-items-center bg-vert-fonce px-5 py-10 md:py-0 md:p-10">
           <div className="max-w-lg space-y-5">
-            <h2 className="text-jaune-clair text-[34px] leading-10 md:text-4xl lg:text-5xl font-medium md:leading-10 lg:leading-none">
+            <h1 className="text-jaune-clair text-[34px] leading-10 md:text-4xl lg:text-5xl font-medium md:leading-10 lg:leading-none">
               Papier thermique <span className="uppercase">irondo</span>
-            </h2>
+            </h1>
             <p className="text-white">
               Rouleaux pour imprimantes de tickets de caisse, TPE, balances
               électroniques. <br />

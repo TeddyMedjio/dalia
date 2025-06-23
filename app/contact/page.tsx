@@ -2,15 +2,22 @@ import React from "react";
 import Container from "../components/common/container";
 import Image from "next/image";
 import ContactForm from "../components/formulaire/form";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact/Dalia Environnement",
+  description:
+    "si vous avez un problème ou une plainte concernant un produit, veuillez conserver le produit et son emballage, car il se peut que l'on vous demande de le renvoyer; Tous les frais d'expédition seront pris en charge par DALIA ENVIRONNEMENT.",
+};
 
 export default function Page() {
   return (
     <div>
       <Container>
         <div className="grid place-items-center py-20 space-y-10">
-          <h2 className=" text-center text-vert-fonce text-[34px] leading-10 md:text-5xl font-medium md:leading-14 max-w-4xl">
+          <h1 className=" text-center text-vert-fonce text-[34px] leading-10 md:text-5xl font-medium md:leading-14 max-w-4xl">
             Quelle que soit la raison, nous sommes impatients de vous entendre!
-          </h2>
+          </h1>
           <div className="space-y-4 grid place-items-center">
             <Image
               src="/whatsapp.svg"
@@ -18,9 +25,9 @@ export default function Page() {
               width={64}
               height={64}
             />
-            <h2 className="text-vert text-[34px] leading-10 md:text-5xl font-medium md:leading-14">
+            <h1 className="text-vert text-[34px] leading-10 md:text-5xl font-medium md:leading-14">
               699 62 03 87
-            </h2>
+            </h1>
           </div>
           <p className="text-center max-w-3xl text-vert-fonce">
             Veuillez nous appeler du lundi au vendredi, entre 8 h 30 et 17 h 30.
@@ -32,9 +39,9 @@ export default function Page() {
       <div className="bg-vert-fonce py-20 grid place-items-center">
         <Container>
           <div className="grid place-items-start md:place-items-center">
-            <h2 className=" text-start md:text-center text-vert-citron text-[34px] leading-10 md:text-5xl font-medium md:leading-14 max-w-4xl mb-10 md:mb-20">
+            <h1 className=" text-start md:text-center text-vert-citron text-[34px] leading-10 md:text-5xl font-medium md:leading-14 max-w-4xl mb-10 md:mb-20">
               Envoyez un message
-            </h2>
+            </h1>
             <div className="lg:w-[80%]">
               {/* formulaire */}
               <div className="flex flex-col-reverse md:flex-row md:items-start gap-10 lg:gap-30 w-full">

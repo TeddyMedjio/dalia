@@ -11,7 +11,8 @@ const geist = Geist({
 
 export const metadata: Metadata = {
   title: "Dalia Environnement",
-  description: "Des solutions papier haut de gamme pour vos besoins.",
+  description:
+    "Dalia Environnement est une entreprise camerounaise spécialisée dans la fourniture des solutions de papiers haut de gamme pour vos besoins à usage professionnel.",
 };
 
 export default function RootLayout({
