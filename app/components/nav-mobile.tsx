@@ -1,3 +1,4 @@
+import { usePathname } from "next/navigation";
 import {
   Sheet,
   SheetContent,
@@ -6,6 +7,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
+import clsx from "clsx";
 import { MenuIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -30,6 +32,7 @@ const navigation = [
 ];
 
 export function NavMobile() {
+  const pathname = usePathname();
   return (
     <Sheet>
       <SheetTrigger asChild>
@@ -41,25 +44,43 @@ export function NavMobile() {
       >
         <SheetHeader className={`${cn("border-b border-jaune-clair")}`}>
           <SheetTitle>
-            <Link href="/">
+            <a href="/">
               <Image src="/logo.svg" alt="logo dalia" width={97} height={44} />
-            </Link>
+            </a>
           </SheetTitle>
         </SheetHeader>
-        <div className="flex items-center gap-14">
+        <div className="flex items-center justify-between pr-10 gap-14">
           <ul className="px-5 flex flex-col gap-5 text-vert-contrast  ">
             {navigation.map((nav, index) => (
-              <li key={index}>
+              <li
+                key={index}
+                className={clsx(
+                  pathname === nav.link ? "font-bold text-vert" : ""
+                )}
+              >
                 <a
                   href={nav.link}
-                  className=" capitalize font-medium hover:text-secondary text-lg transition duration-300 ease-in-out"
+                  className=" capitalize text-lg transition duration-300 ease-in-out"
                 >
                   {nav.name}
                 </a>
               </li>
             ))}
           </ul>
-          <Image src="/fleur.svg" alt="logo dalia" width={150} height={150} />
+
+          {/* <Image src="/fleur.svg" alt="logo dalia" width={150} height={150} /> */}
+          <Link
+            target="blank"
+            href="https://wa.me/237699620387"
+            className="flex items-center bg-vert p-4 rounded-full border border-vert font-medium gap-2 animate-bounce"
+          >
+            <Image
+              src="/whatsapp.svg"
+              alt="icon whatsapp"
+              height={50}
+              width={50}
+            />
+          </Link>
         </div>
       </SheetContent>
     </Sheet>

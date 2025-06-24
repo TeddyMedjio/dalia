@@ -6,6 +6,9 @@
 html {
   scroll-behavior: smooth;
 }
+.animate-bounce {
+  animation: bounce 2s infinite;
+}
 
 body {
   font-family: var(--font-geist), Arial, Helvetica, sans-serif;

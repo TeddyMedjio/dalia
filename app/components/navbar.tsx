@@ -34,7 +34,13 @@ export default function Navbar() {
       <Container>
         <div className="flex items-center justify-between">
           <Link href="/">
-            <Image src="/logo.svg" alt="logo dalia" width={97} height={44} />
+            <Image
+              src="/logo.svg"
+              alt="logo dalia"
+              width={97}
+              height={44}
+              quality={100}
+            />
           </Link>
           <ul className="hidden md:flex items-center gap-8 text-vert-fonce capitalize">
             {navigation.map((nav, indx) => (
@@ -52,13 +58,17 @@ export default function Navbar() {
             ))}
           </ul>
           <Link
-            href="mailto:sophie.fossuo@dalia.cm"
+            target="blank"
+            href="https://wa.me/237699620387"
             className="hidden md:flex items-center bg-vert px-4 py-2 rounded-full text-white border border-vert font-medium gap-2"
           >
-            <span>
-              <MailIcon size={20} />
-            </span>
-            Envoyer un Mail
+            <Image
+              src="/whatsapp.svg"
+              alt="icon whatsapp"
+              height={20}
+              width={20}
+            />
+            Whatsapp
           </Link>
           <NavMobile />
         </div>
