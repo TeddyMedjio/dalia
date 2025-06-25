@@ -33,7 +33,7 @@ export default function RootLayout({
       />
       <meta
         property="og:image"
-        content="https://opengraph.b-cdn.net/production/images/9af1431b-847a-4d2a-bfc2-cdcc5de44e91.png?token=mrQkfSeC5wdQcNPW-HqrUIaWhtOGs0cq4T2xQm822Ik&height=643&width=1200&expires=33286713745"
+        content="https://opengraph.b-cdn.net/production/images/68b12e58-b8ef-42e1-a2c5-139318953264.jpg?token=LSZ3i9YiHspJPzTt7Zz_udMkiBPRBxby7bmZIChtwSw&height=630&width=1200&expires=33286872273"
       />
 
       {/* <!-- Twitter Meta Tags --> */}
@@ -47,7 +47,7 @@ export default function RootLayout({
       />
       <meta
         name="twitter:image"
-        content="https://opengraph.b-cdn.net/production/images/9af1431b-847a-4d2a-bfc2-cdcc5de44e91.png?token=mrQkfSeC5wdQcNPW-HqrUIaWhtOGs0cq4T2xQm822Ik&height=643&width=1200&expires=33286713745"
+        content="https://opengraph.b-cdn.net/production/images/68b12e58-b8ef-42e1-a2c5-139318953264.jpg?token=LSZ3i9YiHspJPzTt7Zz_udMkiBPRBxby7bmZIChtwSw&height=630&width=1200&expires=33286872273"
       />
 
       <body className={`${geist.variable} antialiased`}>
