@@ -16,7 +16,7 @@ export default function NotFound() {
             href="/"
             className="bg-vert px-4 py-2 rounded-full text-white border border-vert font-medium gap-2"
           >
-            Retour à l'Acceuil
+            Retour à l&apos;Acceuil
           </Link>
         </div>
       </Container>

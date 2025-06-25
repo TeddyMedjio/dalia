@@ -44,9 +44,9 @@ export function NavMobile() {
       >
         <SheetHeader className={`${cn("border-b border-jaune-clair")}`}>
           <SheetTitle>
-            <a href="/">
+            <Link href="/">
               <Image src="/logo.svg" alt="logo dalia" width={97} height={44} />
-            </a>
+            </Link>
           </SheetTitle>
         </SheetHeader>
         <div className="flex items-center justify-between pr-10 gap-14">
@@ -58,12 +58,12 @@ export function NavMobile() {
                   pathname === nav.link ? "font-bold text-vert" : ""
                 )}
               >
-                <a
+                <Link
                   href={nav.link}
                   className=" capitalize text-lg transition duration-300 ease-in-out"
                 >
                   {nav.name}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
