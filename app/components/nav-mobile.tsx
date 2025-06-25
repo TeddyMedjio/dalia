@@ -1,6 +1,7 @@
 import { usePathname } from "next/navigation";
 import {
   Sheet,
+  SheetClose,
   SheetContent,
   SheetHeader,
   SheetTitle,
@@ -58,12 +59,14 @@ export function NavMobile() {
                   pathname === nav.link ? "font-bold text-vert" : ""
                 )}
               >
-                <Link
-                  href={nav.link}
-                  className=" capitalize text-lg transition duration-300 ease-in-out"
-                >
-                  {nav.name}
-                </Link>
+                <SheetClose asChild>
+                  <Link
+                    href={nav.link}
+                    className=" capitalize text-lg transition duration-300 ease-in-out"
+                  >
+                    {nav.name}
+                  </Link>
+                </SheetClose>
               </li>
             ))}
           </ul>
