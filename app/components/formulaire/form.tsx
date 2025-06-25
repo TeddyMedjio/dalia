@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { contactSchema, ContactFormValues } from "./schema";
 import { useState } from "react";
+import { Loader2 } from "lucide-react";
 
 export default function ContactForm() {
   const [success, setSuccess] = useState(false);
@@ -19,6 +20,7 @@ export default function ContactForm() {
   });
 
   const onSubmit = async (data: ContactFormValues) => {
+    setSuccess(true);
     // Ajoutez ceci pour voir les données envoyées
     const res = await fetch("../api/sendEmail", {
       method: "POST",
@@ -27,9 +29,8 @@ export default function ContactForm() {
     });
     if (res.ok) {
       reset();
-      setSuccess(true);
+      setSuccess(false);
     }
-    console.log(data);
   };
 
   return (
@@ -76,14 +77,16 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={isSubmitting}
-        className="cursor-pointer w-full py-3 rounded-full bg-vert-secondary hover:bg-vert-contrast transition duration-300 ease-in-out text-white font-semibold"
+        className="cursor-pointer grid place-items-center w-full py-3 rounded-full bg-vert-secondary hover:bg-vert-contrast transition duration-300 ease-in-out text-white font-semibold"
       >
-        Envoyer un message
+        {isSubmitting ? (
+          <Loader2 className="size-4 animate-spin" />
+        ) : (
+          "Envoyer un message"
+        )}
       </button>
       {success && (
-        <p className="text-jaune-clair text-center">
-          Votre Message a été envoyé!
-        </p>
+        <p className="text-jaune-clair text-center">Envoi en cours!</p>
       )}
     </form>
   );
