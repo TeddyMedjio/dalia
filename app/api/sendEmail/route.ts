@@ -12,7 +12,7 @@ export async function POST(req: NextRequest) {
       port: 465,
       secure: true,
       auth: {
-        user: process.env.SWITCH_USER!, // exemple: contact@votredomaine.com
+        user: process.env.SWITCH_USER!, // exemple: contact@votredomaine.cm
         pass: process.env.SWITCH_PASS!, // mot de passe
       },
     });
