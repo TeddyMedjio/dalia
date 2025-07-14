@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <div>
       {/* papier dalia premium */}
-      <div className="flex flex-row">
+      <div className="flex flex-col md:flex-row">
         {/* left */}
         <div className="flex-1/2 grid place-items-center bg-vert px-5 py-10 md:py-0 md:p-10">
           <div className="max-w-lg space-y-5">
@@ -25,7 +25,7 @@ export default function Page() {
           </div>
         </div>
         {/* right */}
-        <div className="hidden flex-1/2 md:grid place-items-center bg-vert-secondary relative h-[416px]">
+        <div className="md:flex-1/2 md:grid place-items-center bg-vert-secondary relative h-[316px] md:h-[416px]">
           <Image
             src="/papiers.jpg"
             alt="image papier"
@@ -35,14 +35,14 @@ export default function Page() {
         </div>
       </div>
       {/* ramettes de papier papyrus */}
-      <div className="flex flex-row">
+      <div className="flex flex-col-reverse md:flex-row">
         {/* left */}
-        <div className="hidden flex-1/2 md:grid place-items-center bg-vert-secondary relative h-[416px]">
+        <div className="md:flex-1/2 md:grid place-items-center bg-vert-secondary relative h-[316px] md:h-[416px]">
           <Image
             src="/ramettes.png"
             alt="image papier"
             fill={true}
-            className="object-top"
+            className=" object-cover md:object-top"
           />
         </div>
         {/* right */}
@@ -59,7 +59,7 @@ export default function Page() {
         </div>
       </div>
       {/* papier thermique irondo */}
-      <div className="flex flex-row">
+      <div className="flex flex-col md:flex-row">
         {/* left */}
         <div className="flex-1/2 grid place-items-center bg-vert-fonce px-5 py-10 md:py-0 md:p-10">
           <div className="max-w-lg space-y-5">
@@ -74,7 +74,7 @@ export default function Page() {
           </div>
         </div>
         {/* right */}
-        <div className="hidden flex-1/2 md:grid place-items-center bg-vert-secondary relative h-[416px]">
+        <div className="md:flex-1/2 md:grid place-items-center bg-vert-secondary relative h-[316px] md:h-[416px]">
           <Image
             src="/thermique.jpg"
             alt="image papier"
