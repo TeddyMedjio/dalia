@@ -16,7 +16,7 @@ export default function Slider() {
               <span className="h-[24px] w-[30px] flex items-center justify-center">
                 <Image src="fleur.svg" alt="icon logo" width={15} height={12} />
               </span>
-              Rames de Format
+              Rame de Format
               <span className="h-[24px] w-[30px] flex items-center justify-center">
                 <Image src="fleur.svg" alt="icon logo" width={15} height={12} />
               </span>
@@ -24,7 +24,7 @@ export default function Slider() {
               <span className="h-[24px] w-[30px] flex items-center justify-center">
                 <Image src="fleur.svg" alt="icon logo" width={15} height={12} />
               </span>
-              Rames de Format
+              Rame de Format
               <span className="h-[24px] w-[30px] flex items-center justify-center mr-5">
                 <Image src="fleur.svg" alt="icon logo" width={15} height={12} />
               </span>
@@ -39,7 +39,7 @@ export default function Slider() {
               <span className="h-[24px] w-[30px] flex items-center justify-center">
                 <Image src="fleur.svg" alt="icon logo" width={15} height={12} />
               </span>
-              Rames de Format
+              Rame de Format
               <span className="h-[24px] w-[30px] flex items-center justify-center">
                 <Image src="fleur.svg" alt="icon logo" width={15} height={12} />
               </span>
@@ -47,7 +47,7 @@ export default function Slider() {
               <span className="h-[24px] w-[30px] flex items-center justify-center">
                 <Image src="fleur.svg" alt="icon logo" width={15} height={12} />
               </span>
-              Rames de Format
+              Rame de Format
               <span className="h-[24px] w-[30px] flex items-center justify-center">
                 <Image src="fleur.svg" alt="icon logo" width={15} height={12} />
               </span>
@@ -61,7 +61,7 @@ export default function Slider() {
               <span className="h-[24px] w-[30px] flex items-center justify-center">
                 <Image src="fleur.svg" alt="icon logo" width={15} height={12} />
               </span>
-              Rames de Format
+              Rame de Format
               <span className="h-[24px] w-[30px] flex items-center justify-center">
                 <Image src="fleur.svg" alt="icon logo" width={15} height={12} />
               </span>
@@ -69,7 +69,7 @@ export default function Slider() {
               <span className="h-[24px] w-[30px] flex items-center justify-center">
                 <Image src="fleur.svg" alt="icon logo" width={30} height={24} />
               </span>
-              Rames de Format
+              Rame de Format
               <span className="h-[24px] w-[30px] flex items-center justify-center">
                 <Image src="fleur.svg" alt="icon logo" width={15} height={12} />
               </span>

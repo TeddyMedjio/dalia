@@ -10,9 +10,10 @@ export default function Clients() {
           <h2 className="text-vert-fonce text-[34px] leading-10 md:text-5xl font-medium md:leading-14 max-w-lg">
             Nos Clients restent pour une raison
           </h2>
-          <p className=" text-vert md:text-lg max-w-lg mt-3 leading-tight">
-            Fournisseur de qualité en papier hygiénique, rams de papier et
-            papier thermique pour professionnels et particuliers.
+          <p className=" text-vert md:text-lg max-w-2xl mt-3 leading-tight">
+            Fournisseur de qualité en papier hygiénique, rame de papier et
+            papier thermique pour professionnels et particuliers. Nous
+            commercialisons aussi certianes marques internationales.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-10">
@@ -20,12 +21,12 @@ export default function Clients() {
           <div className="flex flex-col h-[382px] md:h-[482px] gap-5">
             <div className="bg-jaune-clair p-10 rounded-2xl grid place-items-center flex-1/3">
               <p className="text-vert-fonce lg:text-xl">
-                Tarifs compétitifs pour les grandes quantités.
+                Produits aux normes internationales.
               </p>
             </div>
             <div className="relative w-auto h-full overflow-hidden rounded-3xl flex-2/3">
               <Image
-                src="/rouleau.jpg"
+                src="/bath.jpg"
                 fill={true}
                 alt="image rouleau de papier"
                 className="absolute inset-0 object-cover"
@@ -44,7 +45,7 @@ export default function Clients() {
             </div>
             <div className="bg-jaune-clair p-10 rounded-2xl grid place-items-center flex-1/3">
               <p className="text-vert-fonce lg:text-xl max-w-xs">
-                Produits aux normes internationales.
+                Tarifs compétitifs pour les grandes quantités.
               </p>
             </div>
           </div>
@@ -57,7 +58,7 @@ export default function Clients() {
             </div>
             <div className="relative w-auto h-full overflow-hidden rounded-3xl flex-2/3">
               <Image
-                src="/enfants.png"
+                src="/bathe.jpg"
                 fill={true}
                 alt="image rouleau de papier"
                 className="absolute inset-0 object-cover"

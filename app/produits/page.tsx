@@ -18,16 +18,16 @@ export default function Page() {
               Papier hygiénique <span className="uppercase">Dalia Premium</span>
             </h1>
             <p className="text-white">
-              Nous proposons une gamme variée de papiers hygiéniques adaptés aux
-              particuliers, collectivités, hôtels et entreprises. Disponibles en
-              rouleaux standard, maxi ou jumbo.
+              Nous proposons une gamme variée de papiers hygiéniques et papiers
+              essuis tout adaptés aux particuliers, collectivités, hôtels et
+              entreprises. Disponibles en rouleaux standard, maxi ou jumbo.
             </p>
           </div>
         </div>
         {/* right */}
         <div className="hidden flex-1/2 md:grid place-items-center bg-vert-secondary relative h-[416px]">
           <Image
-            src="/dalia.jpg"
+            src="/papiers.jpg"
             alt="image papier"
             fill={true}
             className="object-cover"
@@ -49,11 +49,11 @@ export default function Page() {
         <div className="flex-1/2 grid place-items-center bg-vert-citron px-5 py-10 md:py-0 md:p-10">
           <div className="max-w-lg space-y-5">
             <h1 className="text-vert text-[34px] leading-10 md:text-4xl lg:text-5xl font-medium md:leading-10 lg:leading-none">
-              Ramettes de papier <span className="uppercase">papyrus</span>
+              Rame de Format <span className="uppercase">papyrus</span>
             </h1>
             <p className="text-vert-contrast">
-              Papier blanc ou recyclé, format A4 ou A3, 70g, 75g, ou 80g. Idéal
-              pour impression, photocopie, usage scolaire ou administratif.
+              Papier blanc ou recyclé, format A4 ou A3, 80g. Idéal pour
+              impression, photocopie, usage scolaire ou administratif.
             </p>
           </div>
         </div>
