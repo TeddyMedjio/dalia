@@ -16,8 +16,9 @@ export default function HeroSection() {
             </h1>
             <p className="text-sm text-white max-w-[580px] mt-5">
               Dalia Environnement vous offre une gamme complète de papiers
-              hygiéniques, Ramettes de papier et papiers pour imprimantes
-              thermiques de qualité supérieure— livrés partout au Cameroun.
+              hygiéniques, Rames de papier et papiers pour imprimantes
+              thermiques de qualité supérieure— livrés partout au Cameroun et
+              dans la sous région de l&apos;Afrique.
             </p>
             <div className="space-x-5 mt-10">
               <Link
