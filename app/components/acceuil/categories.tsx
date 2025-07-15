@@ -21,13 +21,11 @@ export default function Categories() {
           >
             <div className="lg:hidden bg-gradient-to-t from-vert  to-transparent absolute  bottom-0 w-full h-full z-5">
               <p className="absolute bottom-10 px-10 text-white text-3xl font-medium">
-                Papier hygiénique <br />
                 Dalia Premium
               </p>
             </div>
             <div className="hidden lg:block transition-opacity duration-300 ease-in-out hover:opacity-100 opacity-0 bg-gradient-to-t from-vert via-vert/90 to-transparent absolute  bottom-0 w-full h-full z-5">
               <p className="absolute bottom-10 px-10 text-white text-3xl lg:text-4xl font-medium">
-                Papier hygiénique <br />
                 Dalia Premium
               </p>
             </div>
@@ -45,13 +43,13 @@ export default function Categories() {
             >
               <div className="lg:hidden bg-gradient-to-t from-vert via-vert/70  to-transparent absolute  bottom-0 w-full h-full z-5">
                 <p className="absolute bottom-8 lg:bottom-10 px-8 lg:px-10 text-white text-3xl lg:text-4xl font-medium">
-                  Ramettes de papier <br />
+                  Rame de papier <br />
                   Papyrus
                 </p>
               </div>
               <div className="hidden lg:block transition-opacity duration-300 ease-in-out hover:opacity-100 opacity-0 bg-gradient-to-t from-vert via-vert/90 to-transparent absolute  bottom-0 w-full h-full z-5">
                 <p className="absolute bottom-10 px-10 text-white text-4xl font-medium">
-                  Ramettes de papier <br />
+                  Rame de papier <br />
                   Papyrus
                 </p>
               </div>

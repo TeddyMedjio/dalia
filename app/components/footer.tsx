@@ -15,7 +15,7 @@ export default function Footer() {
             </Link>
             <p className="w-full md:max-w-[300px] text-sm text-vert-contrast leading-4 mt-4">
               Dalia Environnement est une entreprise camerounaise spécialisée
-              dans la fourniture de papiers à usage professionnel.
+              dans la fourniture de papier à usage professionnel.
             </p>
           </div>
           <div className="flex flex-row flex-wrap items-start gap-10 lg:gap-20">

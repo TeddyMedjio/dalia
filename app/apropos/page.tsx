@@ -20,10 +20,10 @@ export default function Page() {
             </h1>
             <p className="text-white">
               <span className="font-semibold">DALIA ENVIRONNEMENT</span> est une
-              entreprise camerounaise spécialisée dans la fourniture de papiers
-              à usage professionnel. Depuis plus de 5 ans, nous accompagnons les
-              entreprises, administrations et commerces dans leur
-              approvisionnement en papiers de qualité.
+              entreprise camerounaise spécialisée dans la fourniture de papier à
+              usage professionnel. Depuis plus de 5 ans, nous accompagnons les
+              entreprises, administrations, commerces et ménages dans leur
+              approvisionnement en papier de qualité.
             </p>
           </div>
           <div className="max-w-lg space-y-5">
@@ -34,7 +34,7 @@ export default function Page() {
               <li>Fourniture rapide et fiable</li>
               <li>Produits aux normes internationales</li>
               <li>Service client réactif</li>
-              <li>Tarifs compétitifs pour les grandes quantités</li>
+              <li>Tarifs compétitifs</li>
             </ul>
           </div>
         </div>

@@ -9,7 +9,7 @@ import { NavMobile } from "./nav-mobile";
 
 const navigation = [
   {
-    name: "acceuil",
+    name: "accueil",
     link: "/",
   },
   {
