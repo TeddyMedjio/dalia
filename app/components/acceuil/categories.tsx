@@ -54,7 +54,7 @@ export default function Categories() {
                 </p>
               </div>
               <Image
-                src="/ramettes.png"
+                src="/rame.jpg"
                 alt="image papier hygienique"
                 fill={true}
                 className="absolute inset-0 object-cover"
