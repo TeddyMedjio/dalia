@@ -26,7 +26,7 @@ export default function Clients() {
             </div>
             <div className="relative w-auto h-full overflow-hidden rounded-3xl flex-2/3">
               <Image
-                src="/bath.jpg"
+                src="/papier.jpg"
                 fill={true}
                 alt="image rouleau de papier"
                 className="absolute inset-0 object-cover"
@@ -37,7 +37,7 @@ export default function Clients() {
           <div className="flex flex-col-reverse md:flex-col h-[482px] gap-5">
             <div className="relative w-auto h-full overflow-hidden rounded-3xl flex-2/3">
               <Image
-                src="/rames.jpg"
+                src="/rame.jpg"
                 fill={true}
                 alt="image rouleau de papier"
                 className="absolute inset-0 object-cover"
@@ -58,7 +58,7 @@ export default function Clients() {
             </div>
             <div className="relative w-auto h-full overflow-hidden rounded-3xl flex-2/3">
               <Image
-                src="/bathe.jpg"
+                src="/paquets.jpg"
                 fill={true}
                 alt="image rouleau de papier"
                 className="absolute inset-0 object-cover"

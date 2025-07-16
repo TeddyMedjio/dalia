@@ -12,6 +12,16 @@ export default function Page() {
       {/* papier dalia premium */}
       <div className="flex flex-col md:flex-row">
         {/* left */}
+        <div className="md:flex-1/2 md:grid place-items-center bg-vert-secondary relative h-[316px] md:h-[416px]">
+          <Image
+            src="/paquets.jpg"
+            alt="image papier"
+            fill={true}
+            className="object-cover"
+          />
+        </div>
+        {/* right */}
+
         <div className="flex-1/2 grid place-items-center bg-vert px-5 py-10 md:py-0 md:p-10">
           <div className="max-w-lg space-y-5">
             <h1 className="text-white text-[34px] leading-10 md:text-4xl lg:text-5xl font-medium md:leading-10 lg:leading-none">
@@ -21,6 +31,21 @@ export default function Page() {
               Nous proposons une gamme variée de papiers hygiéniques et papiers
               essuie tout adaptés aux particuliers, collectivités, hôtels et
               entreprises. Disponibles en rouleaux standard, maxi ou jumbo.
+            </p>
+          </div>
+        </div>
+      </div>
+      {/* autres papiers */}
+      <div className="flex flex-col md:flex-row">
+        {/* left */}
+        <div className="flex-1/2 grid place-items-center bg-vert-contrast px-5 py-10 md:py-0 md:p-10">
+          <div className="max-w-lg space-y-5">
+            <h1 className="text-white text-[34px] leading-10 md:text-4xl lg:text-5xl font-medium md:leading-10 lg:leading-none">
+              <span className="uppercase">autres produits</span>
+            </h1>
+            <p className="text-white">
+              Dalia Environnement commercialise aussi une gamme de produis
+              internationales de qualité supérieure.
             </p>
           </div>
         </div>
