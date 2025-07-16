@@ -52,7 +52,7 @@ export default function Page() {
         {/* right */}
         <div className="md:flex-1/2 md:grid place-items-center bg-vert-secondary relative h-[316px] md:h-[416px]">
           <Image
-            src="/papiers.jpg"
+            src="/papier.jpg"
             alt="image papier"
             fill={true}
             className="object-cover"
