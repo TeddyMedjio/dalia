@@ -47,11 +47,11 @@ export function AccordionDemo() {
         <AccordionTrigger
           className={cn("text-vert-contrast font-semibold text-lg lg:text-xl")}
         >
-          Les Rams de Papiers PAPYRUS font-ils le travail ?
+          Les Rames de Papier PAPYRUS font-ils le travail ?
         </AccordionTrigger>
         <AccordionContent className={cn("text-vert text-balance")}>
           <p className="max-w-xl">
-            Les ramettes de papier PAPYRUS garantissent une impression nette et
+            Les rames de papier PAPYRUS garantissent une impression nette et
             sans bavure, réduisant considérablement les risques de bourrage dans
             les imprimantes et copieurs.
           </p>
