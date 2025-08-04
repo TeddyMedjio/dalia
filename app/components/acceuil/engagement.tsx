@@ -8,7 +8,7 @@ export default function Engagement() {
       <Container>
         <h2 className=" text-[34px] md:text-5xl leading-10 text-vert-fonce font-medium md:leading-14">
           Pourquoi choisir <br className="hidden md:block" /> Dalia
-          Environnement?
+          Environnement Sarl?
         </h2>
         <p className="md:text-lg text-vert-contrast max-w-md mt-3 leading-tight">
           Notre engagement envers la qualité et le service fait toute la

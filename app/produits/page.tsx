@@ -44,7 +44,7 @@ export default function Page() {
               <span className="uppercase">autres produits</span>
             </h1>
             <p className="text-white">
-              Dalia Environnement commercialise aussi une gamme de produits
+              Dalia Environnement Sarl commercialise aussi une gamme de produits
               internationales de qualité supérieure.
             </p>
           </div>

@@ -14,8 +14,8 @@ export default function Footer() {
               <Image src="/logo.svg" alt="image logo" width={157} height={71} />
             </Link>
             <p className="w-full md:max-w-[300px] text-sm text-vert-contrast leading-4 mt-4">
-              Dalia Environnement est une entreprise camerounaise spécialisée
-              dans la fourniture de papier à usage professionnel.
+              Dalia Environnement Sarl est une entreprise camerounaise
+              spécialisée dans la fourniture de papier à usage professionnel.
             </p>
           </div>
           <div className="flex flex-row flex-wrap items-start gap-10 lg:gap-20">

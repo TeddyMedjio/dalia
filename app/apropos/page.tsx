@@ -4,7 +4,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "produits/Dalia Environnement",
   description:
-    "DALIA ENVIRONNEMENT est une entreprise camerounaise spécialisée dans la fourniture de papiers à usage professionnel. Depuis plus de 5 ans, nous accompagnons les entreprises, administrations et commerces dans leur approvisionnement en papiers de qualité.",
+    "DALIA ENVIRONNEMENT SARL est une entreprise camerounaise spécialisée dans la fourniture de papiers à usage professionnel. Depuis plus de 5 ans, nous accompagnons les entreprises, administrations et commerces dans leur approvisionnement en papiers de qualité.",
 };
 
 export default function Page() {
@@ -19,11 +19,11 @@ export default function Page() {
               Qui sommes-nous ?
             </h1>
             <p className="text-white">
-              <span className="font-semibold">DALIA ENVIRONNEMENT</span> est une
-              entreprise camerounaise spécialisée dans la fourniture de papier à
-              usage professionnel. Depuis plus de 5 ans, nous accompagnons les
-              entreprises, administrations, commerces et ménages dans leur
-              approvisionnement en papier de qualité.
+              <span className="font-semibold">DALIA ENVIRONNEMENT SARL</span>{" "}
+              est une entreprise camerounaise spécialisée dans la fourniture de
+              papier à usage professionnel. Depuis plus de 5 ans, nous
+              accompagnons les entreprises, administrations, commerces et
+              ménages dans leur approvisionnement en papier de qualité.
             </p>
           </div>
           <div className="max-w-lg space-y-5">

@@ -15,9 +15,9 @@ export default function HeroSection() {
               besoins.
             </h1>
             <p className="text-sm text-white max-w-[500px] mt-5">
-              Dalia Environnement vous offre une gamme complète de papier et
-              rouleau pour imprimantes thermiques de qualité supérieure— livrée
-              partout au Cameroun et dans la sous région.
+              Dalia Environnement Sarl vous offre une gamme complète de papier
+              et rouleau pour imprimantes thermiques de qualité supérieure—
+              livrée partout au Cameroun et dans la sous région.
             </p>
             <div className="space-x-5 mt-10">
               <Link
