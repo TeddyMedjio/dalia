@@ -29,8 +29,9 @@ export default function Page() {
             </h1>
             <p className="text-white">
               Nous proposons une gamme variée de papiers hygiéniques et papiers
-              essuie tout adaptés aux particuliers, collectivités, hôtels et
-              entreprises. Disponibles en rouleaux standard, maxi ou jumbo.
+              essuie tout adaptés aux ménages, particuliers, collectivités,
+              hôtels et entreprises. Disponibles en rouleaux standard, maxi ou
+              jumbo.
             </p>
           </div>
         </div>
@@ -45,7 +46,7 @@ export default function Page() {
             </h1>
             <p className="text-white">
               Dalia Environnement Sarl commercialise aussi une gamme de produits
-              internationales de qualité supérieure.
+              internationaux de qualité supérieure.
             </p>
           </div>
         </div>
