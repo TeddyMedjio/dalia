@@ -21,8 +21,8 @@ export default function Page() {
             <p className="text-white">
               <span className="font-semibold">DALIA ENVIRONNEMENT SARL</span>{" "}
               est une entreprise camerounaise spécialisée dans la fourniture de
-              papier à usage professionnel. Depuis plus de 5 ans, nous
-              accompagnons les entreprises, administrations, commerces et
+              papier à usage domestique et professionnel. Depuis plus de 5 ans,
+              nous accompagnons les entreprises, administrations, commerces et
               ménages dans leur approvisionnement en papier de qualité.
             </p>
           </div>
