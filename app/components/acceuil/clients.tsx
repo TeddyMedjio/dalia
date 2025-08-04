@@ -13,7 +13,7 @@ export default function Clients() {
           <p className=" text-vert md:text-lg max-w-2xl mt-3 leading-tight">
             Fournisseur de qualité en papier hygiénique, rame de papier et
             papier thermique pour professionnels et particuliers. Nous
-            commercialisons aussi certianes marques internationales.
+            commercialisons aussi certaines marques internationales.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-10">

@@ -65,25 +65,13 @@ export function AccordionDemo() {
         </AccordionTrigger>
         <AccordionContent className={cn("text-vert text-balance")}>
           <p className="max-w-xl">
-            Le service client de Dalia Environnement semble globalement réactif
-            selon les avis disponibles en ligne. Les utilisateurs apprécient la
-            rapidité des réponses et la qualité du suivi après-vente.
+            Le service client de Dalia Environnement Sarl semble globalement
+            réactif selon les avis disponibles en ligne. Les utilisateurs
+            apprécient la rapidité des réponses et la qualité du suivi
+            après-vente.
           </p>
         </AccordionContent>
       </AccordionItem>
-      {/* <AccordionItem value="item-5">
-        <AccordionTrigger
-          className={cn("text-vert-contrast font-semibold text-lg")}
-        >
-          Commence se passe la livraison ?
-        </AccordionTrigger>
-        <AccordionContent className={cn("text-vert-secondary text-balance")}>
-          <p>
-            Fournisseur de qualité en papier hygiénique, rams de papier et
-            papier thermique pour professionnels et particuliers.
-          </p>
-        </AccordionContent>
-      </AccordionItem> */}
     </Accordion>
   );
 }

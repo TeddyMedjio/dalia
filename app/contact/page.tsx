@@ -56,11 +56,11 @@ export default function Page() {
                     conserver le produit et son emballage, car il se peut que
                     l&apos;on vous demande de le renvoyer; Tous les frais
                     d&apos;expédition seront pris en charge par{" "}
-                    <span className="font-bold">DALIA ENVIRONNEMENT</span>.
+                    <span className="font-bold">DALIA ENVIRONNEMENT SARL</span>.
                   </p>
                   <br />
                   <p className="text-white text-sm lg:text-base">
-                    <span className="font-bold">DALIA ENVIRONNEMENT</span>{" "}
+                    <span className="font-bold">DALIA ENVIRONNEMENT SARL</span>{" "}
                     n&apos;accepte pas et ne répond pas aux messages des
                     personnes âgées de moins de treize ans. Si vous avez moins
                     de treize ans, veuillez demander à vos parents ou à votre
@@ -72,8 +72,8 @@ export default function Page() {
                     assuré qu&apos;en aucun cas les renseignements que vous
                     fournissez ne seront partagés ou vendus et qu’ils ne seront
                     utilisés que par{" "}
-                    <span className="font-bold">DALIA ENVIRONNEMENT</span> et
-                    ses sociétés affiliées.
+                    <span className="font-bold">DALIA ENVIRONNEMENT SARL</span>{" "}
+                    et ses sociétés affiliées.
                   </p>
                 </div>
                 <div className="flex-1/2">
