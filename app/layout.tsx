@@ -49,6 +49,16 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48" },
+      { url: "/icon", type: "image/png", sizes: "512x512" },
+    ],
+    apple: [
+      { url: "/apple-icon", type: "image/png", sizes: "180x180" },
+    ],
+    shortcut: "/favicon.ico",
+  },
   openGraph: {
     title:
       "Dalia Environnement Sarl - Solutions Papier Professionnel au Cameroun",
