@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Contactez Dalia Environnement Sarl pour vos besoins en papier professionnel au Cameroun. Disponible au 699 62 03 87, du lundi au vendredi 8h30-17h30. Service client réactif et livraison rapide.",
   keywords: [
     "contact Dalia Environnement Sarl",
+    "contact Dalia",
     "commande papier Cameroun",
     "devis papier thermique",
     "service client papier",

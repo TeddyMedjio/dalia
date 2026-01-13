@@ -32,6 +32,7 @@ export const metadata: Metadata = {
     "fournisseur papier Afrique",
     "papier haut de gamme",
     "Dalia Environnement Sarl",
+    "Dalia",
     "solutions impression Cameroun",
     "papier TPE",
     "papier terminal de paiement",

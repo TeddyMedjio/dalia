@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "fournisseur papier Douala",
     "distributeur papier professionnel",
     "Dalia Environnement Sarl",
+    "Dalia",
     "papier entreprise Cameroun",
   ],
   openGraph: {
