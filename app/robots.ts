@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/_next/", "/admin/"],
       },
     ],
-    sitemap: "https://dalia-rho.vercel.app/sitemap.xml",
+    sitemap: "https://www.dalia.cm/sitemap.xml",
   };
 }

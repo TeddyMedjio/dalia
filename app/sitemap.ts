@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://dalia-rho.vercel.app";
+  const baseUrl = "https://www.dalia.cm";
 
   // Mettez à jour cette date quand vous modifiez le contenu
   const lastModified = new Date();
