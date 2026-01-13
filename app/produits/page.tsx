@@ -16,8 +16,9 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Nos Produits - Solutions Papier Professionnel au Cameroun",
-    description: "Papier thermique Irondo, ramettes Papyrus, papier hygiénique Dalia Premium. Qualité supérieure pour professionnels.",
-    url: "https://dalia-rho.vercel.app/produits",
+    description:
+      "Papier thermique Irondo, ramettes Papyrus, papier hygiénique Dalia Premium. Qualité supérieure pour professionnels.",
+    url: "https://www.dalia.cm/produits",
   },
 };
 

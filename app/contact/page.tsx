@@ -18,8 +18,9 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Contactez-nous - Service Client Dalia Environnement",
-    description: "Nous sommes à votre écoute pour tous vos besoins en papier professionnel. Appelez le 699 62 03 87",
-    url: "https://dalia-rho.vercel.app/contact",
+    description:
+      "Nous sommes à votre écoute pour tous vos besoins en papier professionnel. Appelez le 699 62 03 87",
+    url: "https://www.dalia.cm/contact",
   },
 };
 

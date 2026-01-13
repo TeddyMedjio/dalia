@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://dalia-rho.vercel.app"),
+  metadataBase: new URL("https://www.dalia.cm"),
   alternates: {
     canonical: "/",
   },
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: "Dalia Environnement - Solutions Papier Professionnel au Cameroun",
     description:
       "Papier thermique et rouleaux pour imprimantes de qualité supérieure. Livraison dans tout le Cameroun et l'Afrique Centrale.",
-    url: "https://dalia-rho.vercel.app",
+    url: "https://www.dalia.cm",
     siteName: "Dalia Environnement",
     locale: "fr_FR",
     type: "website",

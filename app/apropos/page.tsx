@@ -14,8 +14,9 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "À Propos - Dalia Environnement, Expert Papier au Cameroun",
-    description: "Leader camerounais depuis 5 ans dans la fourniture de papiers professionnels de qualité.",
-    url: "https://dalia-rho.vercel.app/apropos",
+    description:
+      "Leader camerounais depuis 5 ans dans la fourniture de papiers professionnels de qualité.",
+    url: "https://www.dalia.cm/apropos",
   },
 };
 
