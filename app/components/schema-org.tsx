@@ -3,8 +3,8 @@ export default function SchemaOrg() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Dalia Environnement",
-    url: "https://dalia-rho.vercel.app",
-    logo: "https://dalia-rho.vercel.app/logo.png",
+    url: "https://www.dalia.cm",
+    logo: "https://www.dalia.cm/logo.png",
     description:
       "Fournisseur leader de papier thermique, rouleaux pour imprimantes et solutions d'impression professionnelles au Cameroun et en Afrique Centrale",
     address: {
@@ -39,11 +39,11 @@ export default function SchemaOrg() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "Dalia Environnement",
-    image: "https://dalia-rho.vercel.app/logo.png",
-    "@id": "https://dalia-rho.vercel.app",
-    url: "https://dalia-rho.vercel.app",
-    telephone: "+237-XXX-XXX-XXX", // Remplacez par votre numéro
-    priceRange: "$$",
+    image: "https://www.dalia.cm/logo.png",
+    "@id": "https://www.dalia.cm",
+    url: "https://www.dalia.cm",
+    telephone: "+237-699 620 387", // Remplacez par votre numéro
+    priceRange: "CFA",
     address: {
       "@type": "PostalAddress",
       streetAddress: "", // Ajoutez votre adresse

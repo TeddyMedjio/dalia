@@ -13,8 +13,9 @@ const geist = Geist({
 
 export const metadata: Metadata = {
   title: {
-    default: "Dalia Environnement - Papier Thermique & Solutions d'Impression au Cameroun",
-    template: "%s | Dalia Environnement"
+    default:
+      "Dalia Environnement - Papier Thermique & Solutions d'Impression au Cameroun",
+    template: "%s | Dalia Environnement",
   },
   description:
     "Fournisseur leader de papier thermique, rouleaux pour imprimantes et solutions d'impression professionnelles au Cameroun. Livraison rapide à Douala, Yaoundé et toute l'Afrique Centrale. Qualité supérieure garantie.",
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
     "Dalia Environnement",
     "solutions impression Cameroun",
     "papier TPE",
-    "papier terminal de paiement"
+    "papier terminal de paiement",
   ],
   authors: [{ name: "Dalia Environnement" }],
   creator: "Dalia Environnement",
@@ -49,7 +50,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Dalia Environnement - Solutions Papier Professionnel au Cameroun",
-    description: "Papier thermique et rouleaux pour imprimantes de qualité supérieure. Livraison dans tout le Cameroun et l'Afrique Centrale.",
+    description:
+      "Papier thermique et rouleaux pour imprimantes de qualité supérieure. Livraison dans tout le Cameroun et l'Afrique Centrale.",
     url: "https://dalia-rho.vercel.app",
     siteName: "Dalia Environnement",
     locale: "fr_FR",
@@ -66,8 +68,11 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Dalia Environnement - Papier Thermique au Cameroun",
-    description: "Fournisseur de papier thermique et solutions d'impression professionnelles au Cameroun",
-    images: ["https://opengraph.b-cdn.net/production/images/68b12e58-b8ef-42e1-a2c5-139318953264.jpg?token=LSZ3i9YiHspJPzTt7Zz_udMkiBPRBxby7bmZIChtwSw&height=630&width=1200&expires=33286872273"],
+    description:
+      "Fournisseur de papier thermique et solutions d'impression professionnelles au Cameroun",
+    images: [
+      "https://opengraph.b-cdn.net/production/images/68b12e58-b8ef-42e1-a2c5-139318953264.jpg?token=LSZ3i9YiHspJPzTt7Zz_udMkiBPRBxby7bmZIChtwSw&height=630&width=1200&expires=33286872273",
+    ],
   },
   robots: {
     index: true,
@@ -75,9 +80,9 @@ export const metadata: Metadata = {
     googleBot: {
       index: true,
       follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
     },
   },
   verification: {
@@ -96,6 +101,7 @@ export default function RootLayout({
       <head>
         <SchemaOrg />
       </head>
+
       <body className={`${geist.variable} antialiased`}>
         <Analytics />
         <Navbar />
