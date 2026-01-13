@@ -99,6 +99,10 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
+        <meta
+          name="google-site-verification"
+          content="a7M05A9fqZNAAfvO08Ula0zMhnrIBg7obsflFuOfnlo"
+        />
         <SchemaOrg />
       </head>
 
