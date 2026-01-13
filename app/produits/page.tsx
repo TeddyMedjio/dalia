@@ -1,9 +1,24 @@
 import { Metadata } from "next";
 import Image from "next/image";
 export const metadata: Metadata = {
-  title: "apropos/Dalia Environnement",
+  title: "Nos Produits - Papier Thermique, Ramettes & Papier Hygiénique",
   description:
-    "Nous proposons une gamme variée de papiers hygiéniques adaptés aux particuliers, collectivités, hôtels et entreprises. Disponibles en rouleaux standard, maxi ou jumbo.",
+    "Découvrez nos produits : papier thermique Irondo (57×40mm, 80×80mm), ramettes Papyrus A4/A3 80g, papier hygiénique Dalia Premium en rouleaux standard, maxi et jumbo. Qualité professionnelle garantie au Cameroun.",
+  keywords: [
+    "papier thermique Irondo",
+    "ramette Papyrus A4",
+    "papier hygiénique jumbo",
+    "rouleau TPE 57x40",
+    "rouleau TPE 80x80",
+    "papier photocopie A3",
+    "papier bureau Cameroun",
+    "fourniture hôtel",
+  ],
+  openGraph: {
+    title: "Nos Produits - Solutions Papier Professionnel au Cameroun",
+    description: "Papier thermique Irondo, ramettes Papyrus, papier hygiénique Dalia Premium. Qualité supérieure pour professionnels.",
+    url: "https://dalia-rho.vercel.app/produits",
+  },
 };
 
 export default function Page() {

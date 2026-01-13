@@ -5,9 +5,22 @@ import ContactForm from "../components/formulaire/form";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact/Dalia Environnement",
+  title: "Contactez-nous - Dalia Environnement Cameroun",
   description:
-    "si vous avez un problème ou une plainte concernant un produit, veuillez conserver le produit et son emballage, car il se peut que l'on vous demande de le renvoyer; Tous les frais d'expédition seront pris en charge par DALIA ENVIRONNEMENT.",
+    "Contactez Dalia Environnement pour vos besoins en papier professionnel au Cameroun. Disponible au 699 62 03 87, du lundi au vendredi 8h30-17h30. Service client réactif et livraison rapide.",
+  keywords: [
+    "contact Dalia Environnement",
+    "commande papier Cameroun",
+    "devis papier thermique",
+    "service client papier",
+    "livraison papier Douala",
+    "fournisseur papier contact",
+  ],
+  openGraph: {
+    title: "Contactez-nous - Service Client Dalia Environnement",
+    description: "Nous sommes à votre écoute pour tous vos besoins en papier professionnel. Appelez le 699 62 03 87",
+    url: "https://dalia-rho.vercel.app/contact",
+  },
 };
 
 export default function Page() {

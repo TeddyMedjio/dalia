@@ -2,9 +2,21 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "produits/Dalia Environnement",
+  title: "À Propos - Entreprise de Papier Professionnel au Cameroun",
   description:
-    "DALIA ENVIRONNEMENT SARL est une entreprise camerounaise spécialisée dans la fourniture de papiers à usage professionnel. Depuis plus de 5 ans, nous accompagnons les entreprises, administrations et commerces dans leur approvisionnement en papiers de qualité.",
+    "DALIA ENVIRONNEMENT SARL, entreprise camerounaise leader depuis 5 ans dans la fourniture de papiers professionnels. Nous accompagnons entreprises, administrations et commerces avec des produits de qualité supérieure.",
+  keywords: [
+    "entreprise papier Cameroun",
+    "fournisseur papier Douala",
+    "distributeur papier professionnel",
+    "Dalia Environnement",
+    "papier entreprise Cameroun",
+  ],
+  openGraph: {
+    title: "À Propos - Dalia Environnement, Expert Papier au Cameroun",
+    description: "Leader camerounais depuis 5 ans dans la fourniture de papiers professionnels de qualité.",
+    url: "https://dalia-rho.vercel.app/apropos",
+  },
 };
 
 export default function Page() {
