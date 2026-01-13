@@ -9,11 +9,11 @@ export const metadata: Metadata = {
     "entreprise papier Cameroun",
     "fournisseur papier Douala",
     "distributeur papier professionnel",
-    "Dalia Environnement",
+    "Dalia Environnement Sarl",
     "papier entreprise Cameroun",
   ],
   openGraph: {
-    title: "À Propos - Dalia Environnement, Expert Papier au Cameroun",
+    title: "À Propos - Dalia Environnement Sarl, Expert Papier au Cameroun",
     description:
       "Leader camerounais depuis 5 ans dans la fourniture de papiers professionnels de qualité.",
     url: "https://www.dalia.cm/apropos",

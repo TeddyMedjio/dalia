@@ -28,7 +28,7 @@ export default function Page() {
       {/* papier dalia premium */}
       <div className="flex flex-col md:flex-row">
         {/* left */}
-        <div className="md:flex-1/2 md:grid place-items-center bg-vert-secondary relative h-[316px] md:h-[416px]">
+        <div className="md:flex-1/2 md:grid place-items-center bg-vert-secondary relative h-79 md:h-104">
           <Image
             src="/paquets.jpg"
             alt="image papier"
@@ -67,7 +67,7 @@ export default function Page() {
           </div>
         </div>
         {/* right */}
-        <div className="md:flex-1/2 md:grid place-items-center bg-vert-secondary relative h-[316px] md:h-[416px]">
+        <div className="md:flex-1/2 md:grid place-items-center bg-vert-secondary relative h-79 md:h-104">
           <Image
             src="/papier.jpg"
             alt="image papier"
@@ -79,7 +79,7 @@ export default function Page() {
       {/* ramettes de papier papyrus */}
       <div className="flex flex-col-reverse md:flex-row">
         {/* left */}
-        <div className="md:flex-1/2 md:grid place-items-center bg-vert-secondary relative h-[316px] md:h-[416px]">
+        <div className="md:flex-1/2 md:grid place-items-center bg-vert-secondary relative h-79 md:h-104">
           <Image
             src="/rame.jpg"
             alt="image papier"
@@ -116,7 +116,7 @@ export default function Page() {
           </div>
         </div>
         {/* right */}
-        <div className="md:flex-1/2 md:grid place-items-center bg-vert-secondary relative h-[316px] md:h-[416px]">
+        <div className="md:flex-1/2 md:grid place-items-center bg-vert-secondary relative h-79 md:h-104">
           <Image
             src="/thermique.jpg"
             alt="image papier"

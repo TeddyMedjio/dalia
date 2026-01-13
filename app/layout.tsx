@@ -14,8 +14,8 @@ const geist = Geist({
 export const metadata: Metadata = {
   title: {
     default:
-      "Dalia Environnement - Papier Thermique & Solutions d'Impression au Cameroun",
-    template: "%s | Dalia Environnement",
+      "Dalia Environnement Sarl - Papier Thermique & Solutions d'Impression au Cameroun",
+    template: "%s | Dalia Environnement Sarl",
   },
   description:
     "Fournisseur leader de papier thermique, rouleaux pour imprimantes et solutions d'impression professionnelles au Cameroun. Livraison rapide à Douala, Yaoundé et toute l'Afrique Centrale. Qualité supérieure garantie.",
@@ -31,14 +31,14 @@ export const metadata: Metadata = {
     "impression thermique",
     "fournisseur papier Afrique",
     "papier haut de gamme",
-    "Dalia Environnement",
+    "Dalia Environnement Sarl",
     "solutions impression Cameroun",
     "papier TPE",
     "papier terminal de paiement",
   ],
-  authors: [{ name: "Dalia Environnement" }],
-  creator: "Dalia Environnement",
-  publisher: "Dalia Environnement",
+  authors: [{ name: "Dalia Environnement Sarl" }],
+  creator: "Dalia Environnement Sarl",
+  publisher: "Dalia Environnement Sarl",
   formatDetection: {
     email: false,
     address: false,
@@ -49,11 +49,12 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Dalia Environnement - Solutions Papier Professionnel au Cameroun",
+    title:
+      "Dalia Environnement Sarl - Solutions Papier Professionnel au Cameroun",
     description:
       "Papier thermique et rouleaux pour imprimantes de qualité supérieure. Livraison dans tout le Cameroun et l'Afrique Centrale.",
     url: "https://www.dalia.cm",
-    siteName: "Dalia Environnement",
+    siteName: "Dalia Environnement Sarl",
     locale: "fr_FR",
     type: "website",
     images: [
@@ -61,13 +62,13 @@ export const metadata: Metadata = {
         url: "https://opengraph.b-cdn.net/production/images/68b12e58-b8ef-42e1-a2c5-139318953264.jpg?token=LSZ3i9YiHspJPzTt7Zz_udMkiBPRBxby7bmZIChtwSw&height=630&width=1200&expires=33286872273",
         width: 1200,
         height: 630,
-        alt: "Dalia Environnement - Solutions Papier Professionnel",
+        alt: "Dalia Environnement Sarl - Solutions Papier Professionnel",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dalia Environnement - Papier Thermique au Cameroun",
+    title: "Dalia Environnement Sarl - Papier Thermique au Cameroun",
     description:
       "Fournisseur de papier thermique et solutions d'impression professionnelles au Cameroun",
     images: [
