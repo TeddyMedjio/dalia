@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     template: "%s | Dalia Environnement Sarl",
   },
   description:
-    "Fournisseur leader de papier thermique, rouleaux pour imprimantes et solutions d'impression professionnelles au Cameroun. Livraison rapide à Douala, Yaoundé et toute l'Afrique Centrale. Qualité supérieure garantie.",
+    "Entreprise camerounaise spécialisée dans la fourniture de papier à usage domestique et professionnel. Depuis plus de 5 ans, nous accompagnons les entreprises, administrations, commerces et ménages dans leur approvisionnement en papier de qualité.",
   keywords: [
     "papier thermique Cameroun",
     "rouleau imprimante thermique",
