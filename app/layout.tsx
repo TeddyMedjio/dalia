@@ -52,10 +52,10 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/favicon.ico" },
-      { url: "/logo_dalia.png", type: "image/png", sizes: "256x256" },
+      { url: "/favicon.png", type: "image/png", sizes: "192x192" },
     ],
     shortcut: "/favicon.ico",
-    apple: "/logo_dalia.png",
+    apple: "/favicon.png",
   },
   openGraph: {
     title:

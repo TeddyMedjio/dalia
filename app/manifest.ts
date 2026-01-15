@@ -6,8 +6,8 @@ export default function manifest(): MetadataRoute.Manifest {
     short_name: "Dalia",
     icons: [
       {
-        src: "/logo_dalia.png",
-        sizes: "256x256",
+        src: "/favicon.png",
+        sizes: "192x192",
         type: "image/png",
       },
     ],
