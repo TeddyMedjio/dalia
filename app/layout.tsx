@@ -50,9 +50,12 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/logo_dalia.png", type: "image/png", sizes: "256x256" },
+    ],
     shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
+    apple: "/logo_dalia.png",
   },
   openGraph: {
     title:
